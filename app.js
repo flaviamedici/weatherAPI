@@ -3,7 +3,7 @@ let searchBtn = document.querySelector("#search-btn");
 
 let cityRef = document.querySelector("#city");
 let unitsSelection = document.querySelector("#units");
-var key = key.MY_KEY;
+var key = config.MY_KEY;
 
 //fetch details from api
 let getWeather = () => {
